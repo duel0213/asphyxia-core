@@ -887,7 +887,7 @@ export function dataToXML(data: any, header: boolean = true): string {
     allowBooleanAttributes: false,
     parseNodeValue: true,
     parseAttributeValue: false,
-    format: true,
+    format: false,
     supressEmptyNode: true,
   };
 
@@ -908,7 +908,7 @@ export function dataToXMLBuffer(data: any, encoding: KBinEncoding): Buffer {
     allowBooleanAttributes: false,
     parseNodeValue: true,
     parseAttributeValue: false,
-    format: true,
+    format: false,
     supressEmptyNode: true,
   };
 
